@@ -1,0 +1,17 @@
+/* Reset & Base */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fbeec1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  background: #f6e6d9;
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: #5c3d2e;
+}

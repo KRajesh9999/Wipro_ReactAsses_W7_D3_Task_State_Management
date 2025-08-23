@@ -1,0 +1,113 @@
+/* General App Layout */
+.app-container {
+  background: linear-gradient(135deg, #fbeec1, #f6d365, #fda085);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Header */
+.app-header {
+  text-align: center;
+  padding: 30px;
+  background: #5c3d2e; /* Deep brown */
+  color: #fff;
+  border-bottom: 5px solid #fda085;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.app-subtitle {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #fbeec1;
+}
+
+/* Main Section */
+.app-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.task-section {
+  background: #fffaf0;
+  padding: 30px;
+  border-radius: 15px;
+  width: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+
+.task-section:hover {
+  transform: scale(1.02);
+}
+
+/* Task Input & Button */
+.task-section input {
+  padding: 12px;
+  width: 70%;
+  border: 2px solid #c9a66b;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.task-section button {
+  margin-left: 10px;
+  padding: 12px 18px;
+  background: #8b5e3c; /* Oil-shaded brown */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.task-section button:hover {
+  background: #5c3d2e;
+  transform: translateY(-2px);
+}
+
+/* Task List */
+.task-section ul {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.task-section li {
+  background: #f6e6d9;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.task-section li:hover {
+  background: #f3d9c4;
+  transform: scale(1.01);
+}
+
+/* Footer */
+.app-footer {
+  text-align: center;
+  padding: 15px;
+  background: #5c3d2e;
+  color: #fff;
+  font-size: 0.9rem;
+}
